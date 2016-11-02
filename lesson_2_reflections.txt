@@ -10,3 +10,34 @@ repository? What value do you think it offers?
 A: The staging area is to organize the files that are snapshotted with each
 commit. Using a staging area means that all of the files in the working directory
 do no have to be included with each commit.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: The staging area can be used by only adding files that relate to a logical
+change to that staging area. That way, only those files will be committed.
+
+Q: What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+A: Branches would be helpful if we wanted to implement a feature to a project
+but didn't want to completely get rid of a working feature. This could be like
+translating to another language before having an option that chooses the language
+for you. Branches help keep different versions separate from each other.
+
+Q: What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+A: Merging the two branches together adds the added code from each branch into
+the new merged branch. It also deletes code that was deleted in one of the branches
+that was merged into the main branch. The diagram is used to visually explain the
+process because it can become tricky.
+
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+A: The pro of Git's automatic merging is that it will add all of the new code
+entered by users and delete all of the code that was previously taken out. This
+is huge because it means that we don't manually have to keep files up-to-date.
+The pro about manually merging in conflicts is that the programmer can decide
+which function and changes to keep if changes were made to the same function by
+more than one person.
